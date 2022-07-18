@@ -15,7 +15,7 @@ namespace project3444.Infrastructure.Data
         {
 
         }
-        public DbSet<User> User { get; set }
+        public DbSet<User> User { get; set; }
         public DbSet<Comment> Comment { get; set; }
         public DbSet<Dish> Dish { get; set; }
         public DbSet<Order> Order { get; set; }
